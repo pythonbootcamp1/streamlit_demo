@@ -1,0 +1,9 @@
+streamlit==1.48.0
+pandas==2.3.1
+
+# 배포를 위해서 런타임
+
+# pip list # 설치된 라이브러리와 버전
+# pip freeze > requirements.txt # 일반적인 requirements.txt 생성 커맨드
+
+# pip list --format=freeze > requirements.txt # 최종형태(불필요한 부분을 제거해서 만드는 고급버전)
